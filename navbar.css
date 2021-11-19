@@ -1,0 +1,42 @@
+.superbass {
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+}
+.logo {
+  width: 155px;
+  margin-left: 238px;
+}
+.navbar {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 0px 0px 15px 15px;
+  width: 1121px;
+  height: 96px;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 7px 17px 0px rgba(0, 0, 0, 0.2);
+}
+.line-navbar {
+  background: #ff6e01;
+  width: 3px;
+  height: 40px;
+}
+.navbar-names {
+  display: flex;
+}
+.navbar-icons {
+  padding: 0px 11px;
+}
+.header-text {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #023e8a;
+  padding: 0px 25px;
+}
