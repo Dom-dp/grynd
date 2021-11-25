@@ -4,15 +4,25 @@
   outline: 0;
   box-sizing: border-box;
 }
-h1,
-a {
+
+body {
   font-family: "Nunito Sans", sans-serif;
+}
+
+h1 {
   font-size: 144px;
   text-decoration: none;
   text-transform: uppercase;
 }
+
+h2 {
+  font-size: 72px;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-weight: 700;
+}
+
 h4 {
-  font-family: "Nunito Sans", sans-serif;
   font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
@@ -20,21 +30,21 @@ h4 {
   color: #0f0d15;
   line-height: 100%;
 }
+
 h5 {
-  font-family: "Nunito Sans", sans-serif;
   font-size: 12px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
   color: #8e8c94;
 }
+
 .main-screen0 {
   display: flex;
   align-items: center;
-  /*   justify-content: space-between; */
   width: 100%;
-  position: absolute;
 }
+
 .main-screen {
   display: flex;
   flex-direction: column;
@@ -44,8 +54,8 @@ h5 {
   padding-left: 238px;
   padding-top: 37px;
 }
+
 #main-title {
-  font-family: "Nunito Sans", sans-serif;
   font-size: 114px;
   font-weight: 700;
   line-height: 78.5%;
@@ -55,13 +65,14 @@ h5 {
   margin-bottom: 18px;
   margin-top: 172px;
 }
+
 p {
-  font-family: "Nunito Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   max-width: 334px;
   margin-bottom: 42px;
 }
+
 .p-feature {
   margin-left: 121px;
   max-width: 196px;
@@ -74,10 +85,13 @@ p {
   color: #ffffff;
   text-decoration: none;
 }
+.orange {
+  color: #ff6e01;
+  text-decoration: none;
+}
 
 .white-button {
   background-color: #f4f4f4;
-  font-family: "Nunito Sans", sans-serif;
   font-size: 16px;
   font-weight: 600;
   color: #023e8a;
@@ -85,6 +99,7 @@ p {
   padding: 16px 64px;
   border-radius: 18px;
   max-width: 241px;
+  text-decoration: none;
 }
 
 .skate1 {
@@ -95,4 +110,53 @@ p {
   left: 786px;
   width: 725px;
   height: 841px;
+}
+.separator-line1 {
+  background: #ff6e01;
+  width: 5px;
+  height: 112px;
+}
+
+.separator-line2 {
+  background: #ff6e01;
+  width: 5px;
+  height: 80px;
+}
+
+.acessible-prices {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.skater1 {
+  max-width: 558px;
+  display: block;
+  position: absolute;
+  left: 492px;
+  top: 924px;
+}
+.acessible-titles {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  align-items: flex-end;
+  padding-left: 976px;
+  padding-top: 108px;
+}
+.title1 {
+  width: 435px;
+  line-height: 100%;
+  letter-spacing: -0.5%;
+}
+.p-text1 {
+  letter-spacing: 2%;
+  line-height: 120%;
+  margin-top: 16px;
+}
+.by-skaters {
+  background-color: #ff6e01;
+  width: 1043px;
+  height: 360px;
+  padding-left: 441px;
+  padding-top: 48px;
 }
